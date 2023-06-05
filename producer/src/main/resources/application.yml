@@ -1,0 +1,9 @@
+dubbo:
+  protocol:
+    name: dubbo
+    host: 127.0.0.1
+    port: 12345
+  application:
+    name: Producer
+  registry:
+    address: nacos://localhost:8848
