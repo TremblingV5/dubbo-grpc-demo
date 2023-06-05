@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    name: Consumer
+  registry:
+    address: nacos://localhost:8848
+  consumer:
+    check: false
+  protocol:
+    name: dubbo
+    host: 127.0.0.1
+    port: 12346
+
+server:
+  port: 9090
