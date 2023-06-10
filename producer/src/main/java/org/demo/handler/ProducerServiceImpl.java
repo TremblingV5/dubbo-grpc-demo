@@ -9,7 +9,7 @@ public class ProducerServiceImpl implements ProducerService {
 
     @Override
     public HelloResponse hello(HelloRequest request) {
-        HelloResponse resp = HelloResponse.newBuilder().setResult("get").build();
+        HelloResponse resp = HelloResponse.newBuilder().setResult("Hello " + request.getName()).build();
         return resp;
     }
 }

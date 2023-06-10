@@ -6,7 +6,7 @@ dubbo:
   consumer:
     check: false
   protocol:
-    name: dubbo
+    name: grpc
     host: 127.0.0.1
     port: 12346
 

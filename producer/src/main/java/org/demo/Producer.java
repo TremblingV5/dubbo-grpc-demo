@@ -8,8 +8,6 @@ import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Configuration;
 
-import javax.swing.*;
-
 @SpringBootApplication
 @EnableDubbo
 @AutoConfiguration

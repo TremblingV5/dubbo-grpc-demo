@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="producer" />
         <module name="consumer" />
+        <module name="proto" />
       </profile>
     </annotationProcessing>
   </component>
